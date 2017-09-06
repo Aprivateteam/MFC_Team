@@ -110,6 +110,7 @@
     <ClInclude Include="MyListDlg.h" />
     <ClInclude Include="PictureDlg.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="RgsterDlg.h" />
     <ClInclude Include="ScbarDlg.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TabDlg.h" />
@@ -124,6 +125,7 @@
     <ClCompile Include="MFC_learnDlg.cpp" />
     <ClCompile Include="MyListDlg.cpp" />
     <ClCompile Include="PictureDlg.cpp" />
+    <ClCompile Include="RgsterDlg.cpp" />
     <ClCompile Include="ScbarDlg.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

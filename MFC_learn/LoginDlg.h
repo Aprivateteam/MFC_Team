@@ -1,12 +1,17 @@
 #pragma once
 
 
+#include <iostream>
+#include <fstream>
+#include "RgsterDlg.h"
+
 // CLoginDlg ¶Ô»°¿ò
 
 class CLoginDlg : public CDialogEx
 {
 	CString m_name;
 	CString m_password;
+	CRgsterDlg *m_pRgsterDlg;
 	DECLARE_DYNAMIC(CLoginDlg)
 
 public:
@@ -25,4 +30,5 @@ protected:
 public:
 	BOOL Login_Check();
 	afx_msg void OnBnClickedLoginButton();
+	afx_msg void OnBnClickedRegsterButton();
 };
