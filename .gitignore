@@ -36,7 +36,10 @@
 *.ipch
 *.pdb
 *.idb
+Debug/
 Debug/*
-./Debug/*
 *.idb
 *.pdb
+MFC_learn/Debug/*
+*.tlog
+
