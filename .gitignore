@@ -34,4 +34,9 @@
 # Big but redundant files
 *.sdf
 *.ipch
+*.pdb
+*.idb
 Debug/*
+./Debug/*
+*.idb
+*.pdb
